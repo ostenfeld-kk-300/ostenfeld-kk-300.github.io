@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bongostan - The Official Micronation</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header"></div>
+    <div class="hero">
+        <div class="overlay">
+            <h1>Welcome to Bongostan</h1>
+            <p>The Official Micronation</p>
+        </div>
+    </div>
+    <main class="container">
+        <section id="government" class="section">
+            <h2>Government Structure</h2>
+            <ul>
+                <li>Dictator/Sherif</li>
+                <li>Money Launder/Finance Minister</li>
+                <li>Arms Dealer/The Buyer</li>
+                <li>Smuggler/Drinks Man</li>
+            </ul>
+        </section>
+        <section id="population" class="section">
+            <h2>Population</h2>
+            <p id="population-count">Loading...</p>
+        </section>
+        <section id="founding" class="section">
+            <h2>Year of Founding</h2>
+            <p>Bongostan was founded in 1991.</p>
+        </section>
+        <section id="about-founding" class="section">
+            <h2>About the Founding</h2>
+            <p>Bongostan was established with a vision of unity and prosperity. It has grown into a unique micronation with a rich history and vibrant culture.</p>
+            <p>The secession from Denmark was remarkably smooth, primarily because we did not inform them of our departure.</p>
+        </section>
+        <section id="older-than" class="section">
+            <h2>Countries We Are Older Than</h2>
+            <p>Bongostan is older than several countries established after 1991, including:</p>
+            <ul>
+                <li>South Sudan (2011)</li>
+                <li>East Timor (2002)</li>
+                <li>Palau (1994)</li>
+                <li>Eritrea (1993)</li>
+                <li>Czech Republic (1993)</li>
+                <li>Slovakia (1993)</li>
+            </ul>
+        </section>
+        <section id="territory" class="section">
+            <h2>Our Territory Claims</h2>
+            <img src="img/claim-of-territory.jpg" alt="Claim of Territory" id="territory-image" class="clickable-image">
+        </section>
+    </main>
+    <div id="footer"></div>
+
+    <!-- Modal for full-screen image -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
